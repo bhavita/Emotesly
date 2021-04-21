@@ -10,6 +10,8 @@ import TwitchEmotee from './TwitchEmotee';
 import BttvEmotee from './BttvEmotee';
 import CustomEmotee from './CustomEmotee'
 import {Instagram,Facebook,GitHub,Twitter,LinkedIn} from '@material-ui/icons';
+import ExtensionIcon from '@material-ui/icons/Extension';
+
 import Slide from 'react-reveal/Slide';
 
 const options = [
@@ -21,7 +23,7 @@ function App() {
  
   const [checkBttv, setCheckBttv] = useState(false)
   const [checktwitch, setCheckTwitch] = useState(false)
-  const [checkcustom, setCheckCustom] = useState(false)
+  const [checkcustom, setCheckCustom] = useState(true)
   const [checkcustomData, setCheckCustomData] = useState(true)
 
 
@@ -63,21 +65,33 @@ function App() {
       </div>
       <div className = "app__screen__about">
       <div className = "main__about__title">
-                    <h3>About Me</h3>
+                    <h3>About EMOTESLY</h3>
                 </div>
                 <Slide top>
 
                 <div className = "main__about__content">
-               <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. If you like this theme and want to use it for yourself, checkout the source code and the documentation at Github. You can also find me on JAMstack Themes and on Jekyll Themes.</p>
-                </div>
+ <p> This tool was made for Valkyrae Youtube channel. She gave the idea of having support for custom emoticons for Youtube chat. Support for twitch & BTTV emote for Youtube</p>
+               <p>
+               <ul>
+               <li>BTTV support</li>
+               <li>Twitch emotes support</li>
+               <li>Custom emotes for Valkyrae's Youtube channel</li>
+               <li>Colored usernmess</li>
+               <li>ability to hide profile pictures</li>
+               <li>Youtube chat aesthetic </li>
+               </ul>
+             
+               </p>
+
+                               </div>
                 </Slide>
       </div>
       <div className = "app__emotees__section">
-                    <h3 className = "app__emotees__section__title">EMOTEELY</h3>
+                    <h3 className = "app__emotees__section__title">EMOTESLY</h3>
                 <div className = "app__emotees__tabs">
-                  <h3 className = "app__emotees__tabs__single" onClick = {setBTTV} >BTTV EMOTTEES</h3>
-               { checkcustomData?<h3 className = "app__emotees__tabs__single" onClick = {setTwitch}>TWITCH EMOTTEES</h3> : <></>}
-                  <h3 className = "app__emotees__tabs__single" onClick = {setCustom  } >CUSTOM EMOTTEES</h3>
+                  <h3 className = "app__emotees__tabs__single" onClick = {setCustom} >CUSTOM EMOTES</h3>
+                  <h3 className = "app__emotees__tabs__single" onClick = {setBTTV} >BTTV EMOTES</h3>
+               { checkcustomData?<h3 className = "app__emotees__tabs__single" onClick = {setTwitch}>TWITCH EMOTES</h3> : <></>}
                 
 
                 </div>
@@ -91,13 +105,13 @@ function App() {
       </div>
       <div className = "contact">
         <h2>Contact</h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. If you like this theme and want to use it for yourself, checkout the source code and the documentation at Github.</p>
+        <p>
+          Ideas? Thoughts? Reach out to me on 
+        </p>
         <div className = "contact__icons">
-                <Instagram className = "insta" fontSize = "large"/>
-                <Facebook  className = "fb"  fontSize = "large"/>
-                <GitHub  className = "github" fontSize = "large"/>
                 <Twitter className = "twitter" fontSize = "large"/>
-                <LinkedIn  className = "linkedIn" fontSize = "large"/>
+                <ExtensionIcon className = "ext" fontSize = "large"/>
+
             </div>
       </div>
      

@@ -114,6 +114,13 @@
   box-shadow: 4.8px 4.8px 8px #19191a, -4.8px -4.8px 8px #4a4b4e;
 }
 
+ .contact p {
+    align-items: center;
+    justify-content: center;
+    color: #ff093c;
+    text-align: center;
+    margin-top: 5%;
+  }
 .contact__icons {
   display: flex;
   padding-top: 3%;
@@ -124,6 +131,11 @@
 
 .insta:hover {
   color: #8a3ab9;
+  -webkit-animation: action 1s infinite alternate;
+  animation: action 1s infinite alternate;
+}
+.ext:hover {
+  color: #1872ea;
   -webkit-animation: action 1s infinite alternate;
   animation: action 1s infinite alternate;
 }

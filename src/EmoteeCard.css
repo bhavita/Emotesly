@@ -42,13 +42,15 @@
   font-weight: 400;
 }
 
-.card__name h4 {
+.card__name_code {
+  overflow: auto;
+  width: 80px;
   margin: 0;
-
   font-weight: 100;
 }
 
 .card__name__copy {
+  padding: 3px;
   cursor: pointer;
   background-color: #6f747e;
   border-radius: 5px;
@@ -62,7 +64,7 @@
 }
 
 .copy__icon {
-  margin-top: 5px;
+  padding: 2px;
   height: 15px !important;
 }
 

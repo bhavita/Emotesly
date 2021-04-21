@@ -32,7 +32,9 @@ function EmoteeCard({type,imgid,imgName,imgCode,ext,category}) {
             </div>
             <div className = "card__name" >
                 <div className = "card__name__copy" onClick = {copyToClipBoard}>
-                    <h4>{imgCode}</h4>
+                    <div className="card__name_code">
+                    {imgCode}
+                    </div>
                     <FileCopyOutlinedIcon className = "copy__icon" />
                 </div>
             </div>

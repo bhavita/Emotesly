@@ -95,6 +95,7 @@
   /* text-shadow: 2px 2px #f51b4e; */
 }
 .main__icons {
+  justify-content: center;
   display: flex;
   gap: 15%;
   margin-top: 10%;
