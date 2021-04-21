@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Bhavita-Emoteesly/static/css/main.31ea2037.chunk.css",
-    "main.js": "/Bhavita-Emoteesly/static/js/main.f08cae77.chunk.js",
-    "main.js.map": "/Bhavita-Emoteesly/static/js/main.f08cae77.chunk.js.map",
-    "runtime-main.js": "/Bhavita-Emoteesly/static/js/runtime-main.990cf13e.js",
-    "runtime-main.js.map": "/Bhavita-Emoteesly/static/js/runtime-main.990cf13e.js.map",
-    "static/js/2.fc610494.chunk.js": "/Bhavita-Emoteesly/static/js/2.fc610494.chunk.js",
-    "static/js/2.fc610494.chunk.js.map": "/Bhavita-Emoteesly/static/js/2.fc610494.chunk.js.map",
-    "index.html": "/Bhavita-Emoteesly/index.html",
-    "static/css/main.31ea2037.chunk.css.map": "/Bhavita-Emoteesly/static/css/main.31ea2037.chunk.css.map",
-    "static/js/2.fc610494.chunk.js.LICENSE.txt": "/Bhavita-Emoteesly/static/js/2.fc610494.chunk.js.LICENSE.txt"
+    "main.css": "/Emotesly/static/css/main.2ee9723e.chunk.css",
+    "main.js": "/Emotesly/static/js/main.c05508cb.chunk.js",
+    "main.js.map": "/Emotesly/static/js/main.c05508cb.chunk.js.map",
+    "runtime-main.js": "/Emotesly/static/js/runtime-main.c389e638.js",
+    "runtime-main.js.map": "/Emotesly/static/js/runtime-main.c389e638.js.map",
+    "static/js/2.1cfc35c2.chunk.js": "/Emotesly/static/js/2.1cfc35c2.chunk.js",
+    "static/js/2.1cfc35c2.chunk.js.map": "/Emotesly/static/js/2.1cfc35c2.chunk.js.map",
+    "index.html": "/Emotesly/index.html",
+    "static/css/main.2ee9723e.chunk.css.map": "/Emotesly/static/css/main.2ee9723e.chunk.css.map",
+    "static/js/2.1cfc35c2.chunk.js.LICENSE.txt": "/Emotesly/static/js/2.1cfc35c2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.990cf13e.js",
-    "static/js/2.fc610494.chunk.js",
-    "static/css/main.31ea2037.chunk.css",
-    "static/js/main.f08cae77.chunk.js"
+    "static/js/runtime-main.c389e638.js",
+    "static/js/2.1cfc35c2.chunk.js",
+    "static/css/main.2ee9723e.chunk.css",
+    "static/js/main.c05508cb.chunk.js"
   ]
 }
