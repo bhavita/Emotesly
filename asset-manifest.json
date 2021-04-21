@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Emotesly/static/css/main.35f2b206.chunk.css",
-    "main.js": "/Emotesly/static/js/main.feec06c5.chunk.js",
-    "main.js.map": "/Emotesly/static/js/main.feec06c5.chunk.js.map",
+    "main.css": "/Emotesly/static/css/main.d819e26f.chunk.css",
+    "main.js": "/Emotesly/static/js/main.4ebdc4cd.chunk.js",
+    "main.js.map": "/Emotesly/static/js/main.4ebdc4cd.chunk.js.map",
     "runtime-main.js": "/Emotesly/static/js/runtime-main.c389e638.js",
     "runtime-main.js.map": "/Emotesly/static/js/runtime-main.c389e638.js.map",
     "static/js/2.1cfc35c2.chunk.js": "/Emotesly/static/js/2.1cfc35c2.chunk.js",
     "static/js/2.1cfc35c2.chunk.js.map": "/Emotesly/static/js/2.1cfc35c2.chunk.js.map",
     "index.html": "/Emotesly/index.html",
-    "static/css/main.35f2b206.chunk.css.map": "/Emotesly/static/css/main.35f2b206.chunk.css.map",
+    "static/css/main.d819e26f.chunk.css.map": "/Emotesly/static/css/main.d819e26f.chunk.css.map",
     "static/js/2.1cfc35c2.chunk.js.LICENSE.txt": "/Emotesly/static/js/2.1cfc35c2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c389e638.js",
     "static/js/2.1cfc35c2.chunk.js",
-    "static/css/main.35f2b206.chunk.css",
-    "static/js/main.feec06c5.chunk.js"
+    "static/css/main.d819e26f.chunk.css",
+    "static/js/main.4ebdc4cd.chunk.js"
   ]
 }
