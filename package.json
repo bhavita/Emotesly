@@ -2,7 +2,7 @@
   "name": "bhavita-emotees",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://bhavita.github.io/Emotesly/",
+  "homepage": "https://emotes.online",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
