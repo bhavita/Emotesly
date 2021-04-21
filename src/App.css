@@ -11,6 +11,11 @@
   min-height: 100vh;
 }
 
+.link{
+  margin-left: 5px;
+  color: #ff093c
+}
+
 .app__screen__about {
   width: 80%;
   padding: 2%;
@@ -128,18 +133,24 @@
   justify-content: center;
   color: #ff093c;
 }
-
+.ml15{
+  margin-left: 15px
+}
 .insta:hover {
   color: #8a3ab9;
   -webkit-animation: action 1s infinite alternate;
   animation: action 1s infinite alternate;
 }
-.ext:hover {
-  color: #1872ea;
+.ext{
   -webkit-animation: action 1s infinite alternate;
   animation: action 1s infinite alternate;
+  
 }
-.linkedIn:hover {
+.ext:hover {
+  color: #1872ea;
+  
+}
+.link:hover {
   color: #0074b1;
   -webkit-animation: action 1s infinite alternate;
   animation: action 1s infinite alternate;

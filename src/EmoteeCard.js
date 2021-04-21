@@ -11,7 +11,6 @@ function EmoteeCard({type,imgid,imgName,imgCode,ext,category}) {
             await navigator.clipboard.writeText(imgName);
             setCopied(true);
             const text = await navigator.clipboard.readText();
-            console.log('Pasted text: ', text);
           } catch (err) {   
             setCopied(false);
           }

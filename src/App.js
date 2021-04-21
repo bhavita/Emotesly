@@ -21,7 +21,7 @@ const options = [
 
 function App() {
  
-  const [checkBttv, setCheckBttv] = useState(false)
+  const [checkBttv, setCheckBttv] = useState(true)
   const [checktwitch, setCheckTwitch] = useState(false)
   const [checkcustom, setCheckCustom] = useState(true)
   const [checkcustomData, setCheckCustomData] = useState(true)
@@ -65,12 +65,15 @@ function App() {
       </div>
       <div className = "app__screen__about">
       <div className = "main__about__title">
-                    <h3>About EMOTESLY</h3>
+                    <h3>About EMOTESLY - INSPIRATION</h3>
                 </div>
                 <Slide top>
 
                 <div className = "main__about__content">
- <p> This tool was made for Valkyrae Youtube channel. She gave the idea of having support for custom emoticons for Youtube chat. Support for twitch & BTTV emote for Youtube</p>
+ <p> This tool was made for 
+ <a href ="https://www.youtube.com/channel/UCWxlUwW9BgGISaakjGM37aw" className="link">
+ Valkyrae Youtube channel. 
+ </a> She gave the idea of having support for custom emoticons for Youtube chat. Support for twitch & BTTV emote for Youtube</p>
                <p>
                <ul>
                <li>BTTV support</li>
@@ -86,7 +89,7 @@ function App() {
                                </div>
                 </Slide>
       </div>
-      <div className = "app__emotees__section">
+      <div className = "app__emotees__section" id="emotes">
                     <h3 className = "app__emotees__section__title">EMOTESLY</h3>
                 <div className = "app__emotees__tabs">
                   <h3 className = "app__emotees__tabs__single" onClick = {setCustom} >CUSTOM EMOTES</h3>
@@ -109,8 +112,13 @@ function App() {
           Ideas? Thoughts? Reach out to me on 
         </p>
         <div className = "contact__icons">
+                <a href ="https://twitter.com/BhavitaWasTaken">
                 <Twitter className = "twitter" fontSize = "large"/>
+                </a>
+                 <a href="https://chrome.google.com/webstore/detail/emotesly/olhclbnmebbgkgodadbepmoifpfmbncm">
+
                 <ExtensionIcon className = "ext" fontSize = "large"/>
+                </a>
 
             </div>
       </div>
