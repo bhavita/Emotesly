@@ -39,14 +39,7 @@ function MainScreen(props) {
                 <Twitter className = "twitter" fontSize = "large"/>
                 <LinkedIn  className = "linkedIn" fontSize = "large"/> */}
             </div>
-            {/* <div className = "main__about">
-                <div className = "main__about__title">
-                    <h3>About the tool</h3>
-                </div>
-                <div className = "main__about__content">
-              
-                </div>
-            </div> */}
+
             </div>
         </div>
     );

@@ -33,7 +33,6 @@
   /* box-shadow: 8px 8px 8px #28282a, -8px -8px 8px #404244; */
   box-shadow: 5.71px 5.71px 4px #1e1f20, -5.71px -5.71px 4px #4c4d50;
 
-  margin-top: 20%;
   text-align: center;
 }
 .app__screen__about:focus {
