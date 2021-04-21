@@ -88,10 +88,10 @@ function App() {
                 <Slide top>
 
                 <div className = "main__about__content">
- <p> This tool is made for exclusively made for  
+ <p> This tool is exclusively made for  
  <a href ="https://www.youtube.com/channel/UCWxlUwW9BgGISaakjGM37aw" className="link">
  Valkyrae Youtube channel. 
- </a> She is one of the biggest female streamers in the world and the inspiration for Emotesly <3.
+ </a> She is one of the biggest female streamers in the world and the inspiration for Emotesly.
     She streams on Youtube. And Youtube by features, lacks the support of emotes and thus there is no emote culture in YT Stream chat. 
     Also the moderation tools of Youtube lack capabilities to drive a postive chat. 
     This gave an idea of having support for custom emoticons for Youtube chat as well as additional support for twitch & BTTV emote for Youtube</p>
