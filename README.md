@@ -6,7 +6,10 @@ This tool was made for <a href ="https://www.youtube.com/channel/UCWxlUwW9BgGISa
                <li>Twitch emotes support</li>
                <li>Custom emotes for Valkyrae's Youtube channel</li>
                <li>Colored usernmess</li>
-               <li>ability to hide profile pictures</li>
+               <li>Ability to hide profile pictures</li>
                <li>Youtube chat aesthetic </li>
                </ul>
                </p>
+               
+Link for Emotesly :- [Emotesly](https://chrome.google.com/webstore/detail/emotesly/olhclbnmebbgkgodadbepmoifpfmbncm)
+               
