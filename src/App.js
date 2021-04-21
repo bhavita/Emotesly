@@ -101,8 +101,8 @@ function App() {
                <li>Twitch emotes support</li>
                <li>Custom emotes for Valkyrae's Youtube channel</li>
                <li>Colored usernmess</li>
-               <li>ability to hide profile pictures</li>
-               <li>Youtube chat aesthetic </li>
+               <li>Ability to hide profile pictures</li>
+               <li>Enhance Youtube chat experience and make it more aesthetic via stylings </li>
                </ul>
              
                </p>
