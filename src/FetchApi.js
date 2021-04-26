@@ -48,7 +48,7 @@ let SYNC_THRESHOLD = 7200000; //1000*60*60*2
 function Custom () {
 		return new Promise((resolve) => {
 		
-			NTHelper.fetch('https://raw.githubusercontent.com/bhavita/YTStreamChat/main/assets/dictionary.json').then((data) => {
+			NTHelper.fetch('https://cdn.jsdelivr.net/gh/bhavita/YTStreamChat/assets/dictionary.json').then((data) => {
 
 				if(data && data.emotes){
 					for(let emote of data.emotes){
