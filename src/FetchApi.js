@@ -75,7 +75,7 @@ function  Twitch  () {
   
         return new Promise((resolve) => {
          
-               NTHelper.fetch('https://api.twitchemotes.com/api/v4/channels/0').then((data) => {
+               NTHelper.fetch('https://cdn.jsdelivr.net/gh/bhavita/YTStreamChat/assets/twitchGlobalDictionary.json').then((data) => {
                    Twitch.lastUpdate = Date.now();
                    for (let emote of data.emotes) {
                        if (emote.code.match(/^[a-zA-Z0-9]+$/)) {
