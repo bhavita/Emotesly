@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import React from 'react';
 import './App.css';
 import EmoteeCard from './EmoteeCard';
 import {BTTV,Twitch,Custom} from './FetchApi'
@@ -12,6 +13,7 @@ import CustomEmotee from './CustomEmotee'
 import {Instagram,Facebook,GitHub,Twitter,LinkedIn} from '@material-ui/icons';
 import ExtensionIcon from '@material-ui/icons/Extension';
 
+
 import Slide from 'react-reveal/Slide';
 
 const options = [
@@ -19,12 +21,36 @@ const options = [
   { id: 1, value: "goo" },
 ];
 
+
 function App() {
  
   const [checkBttv, setCheckBttv] = useState(true)
   const [checktwitch, setCheckTwitch] = useState(false)
   const [checkcustom, setCheckCustom] = useState(true)
   const [checkcustomData, setCheckCustomData] = useState(true)
+  const [kofiLoaded, setKofiLoaded] = useState(false);
+
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://storage.ko-fi.com/cdn/scripts/overlay-widget.js';
+    script.async = true;
+    script.defer = true;
+    script.crossOrigin = 'anonymous';
+    script.onload = () => setKofiLoaded(true);
+    document.body.append(script);
+  }, []);
+
+  React.useEffect(() => {
+    if (!kofiLoaded) return;
+
+    window.kofiWidgetOverlay.draw('thatgirlcoder', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Like emotesly? Consider supporting me ☕️😇❤️',
+    'floating-chat.donateButton.background-color': '#d9534f',
+    'floating-chat.donateButton.text-color': '#fff'
+      });
+  }, [kofiLoaded]);
+
 
 
 
@@ -58,8 +84,6 @@ function App() {
   
   // }, [searchValue])
   return (
-
-
     <div className="App">
       <div className='solar-syst'>
   <div className='sun'></div>
