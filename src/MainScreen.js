@@ -23,12 +23,26 @@ function MainScreen(props) {
                 <div className = "insta__loader"></div>
                 </div> */}
 
+            <div class= "glinks">
+              <a href="https://chrome.google.com/webstore/detail/emotesly/olhclbnmebbgkgodadbepmoifpfmbncm">
 
-            <div className = "main__title ext"> <h2> Download now </h2>
-                             <a href="https://chrome.google.com/webstore/detail/emotesly/olhclbnmebbgkgodadbepmoifpfmbncm">
+            <div className = "main__title ext"> <h2>Click to download now </h2>
                 <ExtensionIcon className="ml15" fontSize = "large"/>
-                </a>
             </div>
+                            </a>
+
+            </div>
+                <div class="mouse_scroll">
+
+        <div class="mouse">
+            <div class="wheel"></div>
+        </div>
+        <div>
+            <span class="m_scroll_arrows unu"></span>
+            <span class="m_scroll_arrows doi"></span>
+            <span class="m_scroll_arrows trei"></span>
+        </div>
+</div>
 
 
                 {/* <div className = "container">
